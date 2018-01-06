@@ -16,13 +16,13 @@ Diner.prototype.addDishes = function() {
     return round(total, 2);
 };
 
-var calculateTax = function(total) {
-  var tax = 0.07;
-  return total * tax;
+  var calculateTax = function(total) {
+    const tax = 0.07;
+    return total * tax;
 };
 
 var calculateTip = function(total) {
-    var tip = 0.20;
+    const tip = 0.20;
     return total * tip;
 }
 
